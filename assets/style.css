@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.name {
+    display: flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:20px;
+    text-align: left;
+    color: whitesmoke;
+    background-color: dodgerblue;
+}
+
+.name h1{
+    display: inline-flex;
+}
+
+.surName{
+    color: navy;
+}
+
+.mainNavbars{
+    padding-top: 20px;
+    margin-right: 5px;
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;    
+}
+
+.mainNavbars ul li{
+    float: right;
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 25px;
+    
+}
