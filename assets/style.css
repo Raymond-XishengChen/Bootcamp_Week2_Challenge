@@ -4,8 +4,10 @@
     margin: 0;
 }
 
+/* --------------------------------------------Top Section : Name -------------------------------------------------- */
 .name {
     display: flex;
+    width:initial;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding:20px;
     text-align: left;
@@ -22,6 +24,7 @@
 }
 
 .mainNavbars{
+
     padding-top: 20px;
     margin-right: 5px;
     float: right;
@@ -30,9 +33,77 @@
 }
 
 .mainNavbars ul li{
-    float: right;
+    display: inline-block;
     list-style-type: none;
-    display: inline-flex;
     margin-left: 25px;
-    
+    margin-bottom: 10px;
 }
+
+
+/* --------------------------------------------Main Content-------------------------------------------------- */
+.mainContent{
+    display: inline-block;
+
+}
+
+.leftBoxes{
+    display:inline-flex;
+    margin: 20px;
+    background-color: rgb(117, 117, 156);
+    width: 30%;
+    float: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 200%;
+}
+.aboutRightBoxes{
+    display: flex;
+    margin: 20px;
+    background-color: rgb(117, 117, 156);
+    width: 50%;
+    /* text-align: start; */
+    background-image: url(./images/airplane.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.workRightBoxes h2{
+    display: inline-block;
+}
+
+.aboutMeImg {
+    display: inline-block;
+    height: 80%;
+    width: 80%;
+}
+
+.aboutMe {
+    display: inline-block;
+    width: 40%;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5%;
+
+}
+/* ----------------Section 2: Work-------------------- */
+.workRightBoxes{
+    display: flex;
+    color: aliceblue;
+    margin: 20px;
+    background-color: rgb(117, 117, 156);
+    width: 50%;
+    background-image: url(./images/electronic.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.workImg {
+    display: inline-block;
+    height: 40%;
+    width: 40%;
+    margin: 20px;
+
+}
+
+
+
