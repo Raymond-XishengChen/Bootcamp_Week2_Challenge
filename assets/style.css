@@ -44,21 +44,16 @@
 }
 
 .mainNavbars ul li:hover {
-    background-color: #1b0f67;
+    background-color: #806ff1;
     color: #fff;
-  }
+}
   
   /* The user is actively pressing down on the element */
 .mainNavbars ul li:active {
     /* font-size: 180%; */
-    box-shadow: 0 0 10px #000 inset;
-  }
-  
-  /* The element is currently in focus, either by tabbing to or clicking on it */
-/* .mainNavbars ul li:focus {
-    outline: none;
-    border-color: #8ac4ff;
-  } */
+    box-shadow: 0 0 10px #353333 inset;
+}
+
 /* --------------------------------------------Main Content-------------------------------------------------- */
 .mainContent{
     display: inline-block;
@@ -82,49 +77,61 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
+}
   
-  /* 
-  What is the flex property a shorthand property for?
-  It is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties 
-  What is it doing here?
-  We are making the product card not growable, not shrinkable, and with an initial length of 400px 
+  /* making the product card not growable, not shrinkable, and with an initial length of 400px 
   */
-  .project, .bootCamp {
+.project, .bootCamp {
     margin: 20px;
     border-style: solid;
     border-width: 8px;
     border-color: rgb(89, 137, 240);
-    /* border-radius: 10px; */
     padding: 10px;
     flex: 0 0 400px;
 
-  }
+}
   
-  .project header, .bootCamp header {
+.project header, .bootCamp header {
     padding: 20px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(89, 137, 240) ;
-  }
-  
-  .project p, .bootCamp p {
+}
+
+
+.project p, .bootCamp p {
     text-align: center;
-  }
-  
-  .project img, .bootCamp img {
+}
+
+/* set image size */
+.project img, .bootCamp img {
     width: 100%;
     height: 70%;
-  }
+}
 
-  @media screen and (max-width: 768px) {
+/* making the main contents to flex and scroll vertically */
+@media screen and (max-width: 768px) {
     .mainContent, .name {
       flex-direction: column;
     }
-  }
+}
 
+  /* makeing the images larger when pointing at them */
 .project img:hover {
     background-color: #1b0f67;
     opacity: 80%;
     transform: scale(120%);
-  }
+}
+
+  .bootCamp img:hover {
+    background-color: #1b0f67;
+    opacity: 80%;
+    transform: scale(120%);
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
