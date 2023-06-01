@@ -22,7 +22,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 # Description
+This challenge is to create a webpage to showcase the work from a bootcamp student.
 
+The webpage contains the student's name, navigate buttons to different sections of the page, and links to their past projects.
 # Screenshot
 ![Full screenshot of final look](/assets/images/fullpage-screenshot.png)
 
